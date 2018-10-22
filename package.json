@@ -1,11 +1,11 @@
 {
-  "name": "ibrahimardasen@gmail.com",
+  "name": "emırhansarac",
   "version": "0.0.1",
   "description": "",
   "main": "bot.js",
   "scripts": {
     "test": "node bot.js"
   },
-  "author": "İbrahim Arda",
+  "author": "Emirhan",
   "license": "ISC"
 }
