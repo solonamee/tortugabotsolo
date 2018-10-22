@@ -2,7 +2,7 @@ const Discord = require ("discord.js");
 const randomPuppy = require('random-puppy');
 
 exports.run = (client, message, args) => {
-    return message.channel.send("**hop bi pro yakalım**").then(async msg => {
+    return message.channel.send("**hop bi pro yakalım**").then(msg => {
                         setTimeout(() => {
                             msg.edit('🚬');
                         }, 500);
@@ -33,12 +33,12 @@ exports.run = (client, message, args) => {
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ['YEDEK KOMUT1', 'YEDEK KOMUT2'],
+  aliases: [],
   permLevel: 0
 };
 
 exports.help = {
   name: "yakyak",
-  description: "Sizin İçin Bir Sigara Yakar.",
+  description: "Sizin için bir sigara yakar.",
   usage: "yakyak"
 };

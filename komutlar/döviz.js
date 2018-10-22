@@ -19,12 +19,12 @@ request('https://www.doviz.com/api/v1/currencies/EUR/latest', function (error, r
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ['döviz'],
+  aliases: [],
   permLevel: 0
 };
 
 exports.help = {
   name: "döviz",
-  description: "Döviz miktarını gösterir",
+  description: "Döviz miktarını gösterir.",
   usage: "döviz"
 };

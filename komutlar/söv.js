@@ -1,6 +1,6 @@
 const ayarlar = require("../ayarlar.json");
 
-exports.run = async (client, msg, args) => {
+exports.run = (client, msg, args) => {
     let kufur=[
       "amına kodumun jedayı seni",
       "babanın annesinin amına koyayım orul orul orospu evladı",

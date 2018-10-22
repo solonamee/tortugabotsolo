@@ -8,7 +8,7 @@ exports.run = function(client, message, args) {
   .setColor('RANDOM')
   .setTimestamp()
   .setAuthor(message.author.username, message.author.avatarURL)
-  .setFooter('Sky Leader Bot ')
+  .setFooter('Tortuga Bot ')
   .setImage("https://images-ext-2.discordapp.net/external/d-QM81zaQpGZAC1TJOM_BkvgvxdsQAeWxig3IyQ2_eI/https/img-s2.onedio.com/id-571d7e82d12fbe2b6494cd3b/rev-0/w-500/s-aeb4761f4d7ccc7cf294898a03c27167bb395f73.gif")
   .setImage("https://media.giphy.com/media/QGzPdYCcBbbZm/giphy.gif")
   .setImage("https://media.giphy.com/media/NBN2nFCVQDCDe/giphy.gif")

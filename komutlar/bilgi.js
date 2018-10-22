@@ -14,7 +14,7 @@ exports.run = (client, message) => {
     .setColor(0x00AE86)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .setDescription('Bot sürümü: v' + ayarlar.surum + ' Yapımcı: らØŁØ ЛΛ௱Ɛ \n\n_**Botun Destek Sunucusu:https://discord.gg/cbmtXX7 \n\n**:copyright: İbrahim Arda Şen**');
+    .setDescription('Bot sürümü: v' + ayarlar.surum + ' Yapımcı: らØŁØ ЛΛ௱Ɛ 公 \n\n_**BOTUN DESTEK SUNUCUSU:**_\n\nhttps://discord.gg/jzYwNMm \n\n**:copyright: İbrahim Arda Şen**');
     return message.author.sendEmbed(pingozel)
 };
 

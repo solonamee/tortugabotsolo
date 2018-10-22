@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 var request = require('request');
 
-module.exports.run = (client, message, args) => {
+exports.run = (client, message, args) => {
     request('https://api.eggsybot.xyz/ataturk', function (error, response, body) {
     if (error) return console.log('Hata:', error); // Hata olursa, konsola göndersin,
     else if (!error) { // Eğer hata yoksa;
@@ -13,12 +13,12 @@ module.exports.run = (client, message, args) => {
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ['atatürk'],
+  aliases: [],
   permLevel: 0
 };
 
 exports.help = {
   name: "atatürk",
-  description: "Atatürk fotoğrafı gösterir",
+  description: "Rastgele atatükr fotoğrafları atar.",
   usage: "atatürk"
 };

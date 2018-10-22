@@ -1,4 +1,4 @@
-exports.run = async (client, msg, args) => {
+exports.run = (client, msg, args) => {
     let ask=[
       "Aşkölçer %3 Gösteriyor.",
       "Aşkölçer %6 Gösteriyor.",
